@@ -11,7 +11,11 @@ use Botble\RealEstate\Models\Project;
 use Botble\RealEstate\Models\Property;
 use Botble\Slug\Facades\SlugHelper;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AgentsController;
+use Botble\RealEstate\Http\Controllers\PublicController;
 
+Route::get('/carousel-agents', [AgentsController::class, 'index'])->name('carousel.agents');
+Route::get('/carousel-get-agents', [PublicController::class, 'getAgentCarousel'])->name('carousel.get.agents');
 Route::group(['namespace' => 'Botble\RealEstate\Http\Controllers', 'middleware' => ['web', 'core']], function () {
     Route::group([
         'prefix' => BaseHelper::getAdminPrefix() . '/real-estate',

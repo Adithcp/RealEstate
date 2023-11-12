@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AgentsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,3 +12,5 @@
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/agents', [AgentsController::class, 'index'])->name('Agents');

@@ -33,6 +33,7 @@ use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Mimey\MimeTypes;
+use Illuminate\Support\Facades\DB;
 
 class PublicController extends Controller
 {
@@ -561,5 +562,32 @@ class PublicController extends Controller
 
         return Theme::scope('real-estate.agent', compact('properties', 'account'))
             ->render();
+    }
+
+    public function getAgentCarousel(Request $request)
+    {
+        $offset = 3;
+        $limit = 3;
+        $agent = DB::table('re_accounts')->offset($offset)->limit($limit)->get();
+
+        return response()->json($agent);
+        // $accounts = $accountRepository->advancedGet([
+        //     'paginate' => [
+        //         'per_page' => 12,
+        //         'current_paged' => $request->integer('page', 1),
+        //     ],
+        //     'withCount' => [
+        //         'properties' => function ($query) {
+        //             return RepositoryHelper::applyBeforeExecuteQuery($query, $query->getModel());
+        //         },
+        //     ],
+        // ]);
+        // dd($accounts);
+
+        // SeoHelper::setTitle(__('Agents'));
+
+        // Theme::breadcrumb()->add(__('Home'), route('public.index'))->add(__('Agents'), route('public.agents'));
+
+        // return Theme::scope('real-estate.agents', compact('accounts'))->render();
     }
 }

@@ -134,4 +134,7 @@ class HouslyController extends PublicController
 
         return $response->setData(Theme::partial('filters.projects-suggestion', compact('projects')));
     }
+    public function test(){
+        dd('john');
+    }
 }
