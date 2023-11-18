@@ -4,7 +4,7 @@
 
 {!! Theme::partial('breadcrumb') !!}
 
-<style>
+<!-- <style>
     .img-wrapper {
   max-width: 100%;
   height: 65vw;
@@ -54,8 +54,8 @@ img {
   opacity: 0.8;
 }
 
-</style>
-
+</style> -->
+<!-- 
 <div>
 <div id="carouselExampleControls" class="carousel">
   <div class="carousel-inner" id="carousel-inner">
@@ -108,7 +108,7 @@ img {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> -->
 
 <div class="container mt-16 lg:mt-24">
     @include(Theme::getThemeNamespace('views.real-estate.partials.agents-list'))
