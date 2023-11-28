@@ -1,9 +1,10 @@
 <?php
 
 return [
-    'create' => 'New account',
+    'create' => 'New agents',
     'edit' => 'Edit account ":name"',
-    'name' => 'Accounts',
+    'name' => 'Agents',
+    'new_name' => 'Agents',
     'form' => [
         'email' => 'Email',
         'password' => 'Password',

@@ -58,7 +58,7 @@ class DashboardMenu
                 debug_backtrace()[1]['class'] . '@' . debug_backtrace()[1]['function']
                 :
                 null;
-
+                DashboardMenu
             throw new RuntimeException('Menu id already exists: ' . $id . ' on class ' . $calledClass);
         }
 
@@ -193,7 +193,6 @@ class DashboardMenu
                 }
             }
         }
-
         return collect($links)->sortBy('priority');
     }
 }

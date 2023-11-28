@@ -28,48 +28,48 @@ class PageServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        $this->app->bind(PageInterface::class, function () {
-            return new PageRepository(new Page());
-        });
+        // $this->app->bind(PageInterface::class, function () {
+        //     return new PageRepository(new Page());
+        // });
 
-        $this
-            ->loadAndPublishConfigurations(['permissions', 'general'])
-            ->loadAndPublishViews()
-            ->loadAndPublishTranslations()
-            ->loadRoutes()
-            ->loadMigrations();
+        // $this
+        //     ->loadAndPublishConfigurations(['permissions', 'general'])
+        //     ->loadAndPublishViews()
+        //     ->loadAndPublishTranslations()
+        //     ->loadRoutes()
+        //     ->loadMigrations();
 
-        $this->app['events']->listen(RouteMatched::class, function () {
-            DashboardMenu::registerItem([
-                'id' => 'cms-core-page',
-                'priority' => 2,
-                'parent_id' => null,
-                'name' => 'packages/page::pages.menu_name',
-                'icon' => 'fa fa-book',
-                'url' => route('pages.index'),
-                'permissions' => ['pages.index'],
-            ]);
+        // $this->app['events']->listen(RouteMatched::class, function () {
+        //     DashboardMenu::registerItem([
+        //         'id' => 'cms-core-page',
+        //         'priority' => 2,
+        //         'parent_id' => null,
+        //         'name' => 'packages/page::pages.menu_name',
+        //         'icon' => 'fa fa-book',
+        //         'url' => route('pages.index'),
+        //         'permissions' => ['pages.index'],
+        //     ]);
 
-            if (function_exists('admin_bar')) {
-                AdminBar::registerLink(
-                    trans('packages/page::pages.menu_name'),
-                    route('pages.create'),
-                    'add-new',
-                    'pages.create'
-                );
-            }
-        });
+        //     if (function_exists('admin_bar')) {
+        //         AdminBar::registerLink(
+        //             trans('packages/page::pages.menu_name'),
+        //             route('pages.create'),
+        //             'add-new',
+        //             'pages.create'
+        //         );
+        //     }
+        // });
 
-        if (function_exists('shortcode')) {
-            ViewFacade::composer(['packages/page::themes.page'], function (View $view) {
-                $view->withShortcodes();
-            });
-        }
+        // if (function_exists('shortcode')) {
+        //     ViewFacade::composer(['packages/page::themes.page'], function (View $view) {
+        //         $view->withShortcodes();
+        //     });
+        // }
 
-        $this->app->booted(function () {
-            $this->app->register(HookServiceProvider::class);
-        });
+        // $this->app->booted(function () {
+        //     $this->app->register(HookServiceProvider::class);
+        // });
 
-        $this->app->register(EventServiceProvider::class);
+        // $this->app->register(EventServiceProvider::class);
     }
 }

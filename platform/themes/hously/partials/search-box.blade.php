@@ -1,4 +1,27 @@
 <style id="browser-styles" data-href="main.desktop.3c26cd9438d4ca46edad.css">
+
+  /* Area sqft */
+  ._4c9282ef {
+    display: none;
+    z-index: 9999;
+  }
+  ._0caec95d {
+    display: none;
+    z-index: 9999;
+  }
+_3f35dbb9{padding:1rem;-webkit-box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:.5rem;background-color:#fff}._3f35dbb9.FilterDesign2022{position:relative;margin-top:1rem;border-radius:.8rem;-webkit-box-shadow:0 0 .5rem 0 rgba(0,0,0,.25);box-shadow:0 0 .5rem 0 rgba(0,0,0,.25)}._3f35dbb9.FilterDesign2022:before{content:"";position:absolute;width:0;height:0;bottom:100%;right:25.6px;right:1.6rem;border:.75rem solid transparent;border-top:none;border-bottom:.75rem solid #fff;-webkit-filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));-webkit-filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1));filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1))}._0a772a68{position:absolute;top:100%;left:0;right:0;z-index:4;margin-top:.2rem}.fdef0e1c.FilterDesign2022{width:33.5rem;float:right}._813e6d60.FilterDesign2022{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}._90cecf69{display:inline-block;position:relative;width:calc(50% - .5rem);margin-right:1rem;vertical-align:top}._90cecf69:last-child{margin-right:0}._813e6d60.FilterDesign2022{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}._90cecf69.FilterDesign2022{display:unset;vertical-align:unset;width:100%;margin:0 .5rem}._90cecf69.FilterDesign2022:not(:last-of-type){margin:0 .5rem}._5af635f0{font-size:1.4rem;font-weight:700;display:block;width:calc(100% - .5rem);text-align:center;text-transform:uppercase}._5af635f0.FilterDesign2022{font-weight:400;text-align:left;text-transform:unset;color:#767676;margin-bottom:.8rem}._6d743a70{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:4rem;width:100%;cursor:pointer;border:.1rem solid #dedede;border-radius:.8rem;background-color:#fff;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 1rem}._6d743a70.b61a85e9{border:.1rem solid #006169}._97b43062{color:#222}.a0c631cb{position:relative;height:4rem}div.f2679835{font-size:1.4rem;font-weight:700;width:calc(100% - 1rem);height:3.2rem;color:#222;border:1px solid #dedede;border-radius:.4rem;text-overflow:ellipsis;margin-bottom:1rem}.f2679835.FilterDesign2022{font-weight:400;height:3.8rem}.f2679835.FilterDesign2022, .fc3aef8f{font-size:1.5rem;border:none;margin-bottom:0}.fc3aef8f{font-size:1.5rem;border:none;margin-bottom:0}.fc3aef8f{height:100%;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#fff;cursor:text;outline:none}._90cecf69{display:inline-block;position:relative;width:calc(50% - .5rem);margin-right:1rem;vertical-align:top}._90cecf69:last-child{margin-right:0}._813e6d60.FilterDesign2022{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}._90cecf69.FilterDesign2022{display:unset;vertical-align:unset;width:100%;margin:0 .5rem}._90cecf69.FilterDesign2022:not(:last-of-type){margin:0 .5rem}._5af635f0{font-size:1.4rem;font-weight:700;display:block;width:calc(100% - .5rem);text-align:center;text-transform:uppercase}._5af635f0.FilterDesign2022{font-weight:400;text-align:left;text-transform:unset;color:#767676;margin-bottom:.8rem}._6d743a70{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:4rem;width:100%;cursor:pointer;border:.1rem solid #dedede;border-radius:.8rem;background-color:#fff;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 1rem}._6d743a70.b61a85e9{border:.1rem solid #006169}.a0c631cb{position:relative;height:4rem}div.f2679835{font-size:1.4rem;font-weight:700;width:calc(100% - 1rem);height:3.2rem;color:#222;border:1px solid #dedede;border-radius:.4rem;text-overflow:ellipsis;margin-bottom:1rem}.f2679835.FilterDesign2022{font-weight:400;height:3.8rem}.f2679835.FilterDesign2022, .fc3aef8f{font-size:1.5rem;border:none;margin-bottom:0}.fc3aef8f{font-size:1.5rem;border:none;margin-bottom:0}.fc3aef8f{height:100%;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#fff;cursor:text;outline:none}._16d0f56f{margin-left:auto;margin-top:.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}@media screen and (max-width:1366px){._16d0f56f{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}._16d0f56f.FilterDesign2022{width:100%;margin-top:1rem;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media screen and (max-width:1366px){._16d0f56f.FilterDesign2022{-ms-flex-wrap:unset;flex-wrap:unset;-webkit-box-pack:unset;-ms-flex-pack:unset;justify-content:unset}}._2d04a3c4{font-size:1.13rem;margin-right:.5rem;color:#222;border:none;background:none}._2d04a3c4:hover{cursor:pointer}._2d04a3c4:active, ._2d04a3c4:focus{outline:none}@media screen and (max-width:1366px){._2d04a3c4{margin:.5rem auto}}._2d04a3c4.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border:.1rem solid #006169;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#fff;color:#006169}@media screen and (max-width:1366px){._2d04a3c4.FilterDesign2022{margin:.25rem .5rem .5rem}}._50c0c117{font-size:1.13rem;padding:.3rem .6rem;color:#fff;border:none;border-radius:.4rem;background-color:#222;height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}._50c0c117:hover{background-color:#000}._50c0c117:active, ._50c0c117:focus{outline:none}._50c0c117:hover{cursor:pointer;background-color:#006169}._50c0c117.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}._50c0c117.FilterDesign2022:hover{cursor:pointer;background-color:#006169}
+ /* Area sqft end */
+ /* residential*/
+ ._3f35dbb9{padding:1rem;-webkit-box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:.5rem;background-color:#fff}._3f35dbb9.FilterDesign2022{position:relative;margin-top:1rem;border-radius:.8rem;-webkit-box-shadow:0 0 .5rem 0 rgba(0,0,0,.25);box-shadow:0 0 .5rem 0 rgba(0,0,0,.25)}._3f35dbb9.FilterDesign2022:before{content:"";position:absolute;width:0;height:0;bottom:100%;right:25.6px;right:1.6rem;border:.75rem solid transparent;border-top:none;border-bottom:.75rem solid #fff;-webkit-filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));-webkit-filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1));filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1))}._4c9282ef{width:32.5rem}._4c9282ef.FilterDesign2022{float:right;width:34.5rem}.fe6db599{padding:0;margin:0;text-align:center}._1cef7b64.FilterDesign2022{display:-webkit-box;display:-ms-flexbox;display:flex;margin:.5rem .5rem 0;-ms-flex-pack:distribute;justify-content:space-around}._05b994c0{font-size:1.2rem;font-weight:700;display:inline-block;margin-bottom:1rem;cursor:pointer;text-align:center;text-transform:uppercase;padding:0 .1rem .3rem;color:#a3a1a1;border:none;margin-right:1rem}._05b994c0:last-child{margin-right:0}._05b994c0.FilterDesign2022{font-weight:400;font-size:1.5rem;text-transform:unset;color:#767676;margin-right:0;border-bottom:.1rem solid #dbdbdb;width:50%}.e7e540d2{color:#222;border-bottom:.2rem solid #49a8e5}.e7e540d2.FilterDesign2022{font-weight:700;color:#28b16d;border-bottom:.2rem solid #28b16d}._31a8085a{font-size:1.3rem;line-height:2.8rem;overflow:hidden;-webkit-box-sizing:border-box;box-sizing:border-box;height:3rem;margin-bottom:.6rem;padding:0 1rem;cursor:pointer;white-space:nowrap;text-overflow:ellipsis;text-align:center;color:#222;border:.1rem solid #dedede;border-radius:.4rem}._31a8085a.FilterDesign2022{font-weight:400;font-size:1.4rem;color:#767676;margin-bottom:1rem;border:.1rem solid #dbdbdb;border-radius:1.8rem}._31a8085a:hover{background-color:#f5f5f5}._97ab0b50{display:inline-block;margin-top:1rem;vertical-align:top;width:calc(50% - 1rem);margin-right:1rem}._97ab0b50:last-child{margin-right:0;margin-right:.5rem}._16d0f56f{margin-left:auto;margin-top:.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}@media screen and (max-width:1366px){._16d0f56f{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}._16d0f56f.FilterDesign2022{width:100%;margin-top:1rem;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media screen and (max-width:1366px){._16d0f56f.FilterDesign2022{-ms-flex-wrap:unset;flex-wrap:unset;-webkit-box-pack:unset;-ms-flex-pack:unset;justify-content:unset}}._2d04a3c4{font-size:1.13rem;margin-right:.5rem;color:#222;border:none;background:none}._2d04a3c4:hover{cursor:pointer}._2d04a3c4:active, ._2d04a3c4:focus{outline:none}@media screen and (max-width:1366px){._2d04a3c4{margin:.5rem auto}}._2d04a3c4.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border:.1rem solid #006169;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#fff;color:#006169}@media screen and (max-width:1366px){._2d04a3c4.FilterDesign2022{margin:.25rem .5rem .5rem}}.e59368ca{font-size:1.13rem;padding:.3rem .6rem;color:#fff;border:none;border-radius:.4rem;background-color:#222;height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}.e59368ca:hover{background-color:#000}.e59368ca:active, .e59368ca:focus{outline:none}.e59368ca:hover{cursor:pointer;background-color:#006169}.e59368ca.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}.e59368ca.FilterDesign2022:hover{cursor:pointer;background-color:#006169}
+ /* residential end*/
+
+ /*rent */
+
+ ._3f35dbb9{padding:1rem;-webkit-box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);box-shadow:0 .3rem .6rem 0 rgba(0,0,0,.25);-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:.5rem;background-color:#fff}._3f35dbb9.FilterDesign2022{position:relative;margin-top:1rem;border-radius:.8rem;-webkit-box-shadow:0 0 .5rem 0 rgba(0,0,0,.25);box-shadow:0 0 .5rem 0 rgba(0,0,0,.25)}._3f35dbb9.FilterDesign2022:before{content:"";position:absolute;width:0;height:0;bottom:100%;right:25.6px;right:1.6rem;border:.75rem solid transparent;border-top:none;border-bottom:.75rem solid #fff;-webkit-filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));filter:drop-shadow(0 -1px 1px rgba(0,0,0,.1));-webkit-filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1));filter:drop-shadow(0 -.0625rem .0625rem rgba(0,0,0,.1))}
+    ._0caec95d.FilterDesign2022{width:25.2rem}._0caec95d.FilterDesign2022:before{left:89.6px;left:5.6rem;right:0}._600a7e43{margin-bottom:1.6rem}._29a3713c{font-size:1.13rem;padding:.3rem .6rem;color:#fff;border:none;border-radius:.4rem;background-color:#222;height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}.d237e614{font-size:1.5rem;font-weight:700;color:#4c4a4a;margin:0 .5rem 1.1rem}._410dc5bd.FilterDesign2022{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;width:calc(100% - 1rem);max-height:4rem;margin:0 .5rem;border:.1rem solid #dbdbdb;border-radius:.4rem}._410dc5bd.FilterDesign2022 span{-ms-flex-preferred-size:100%;flex-basis:100%;margin:.4rem}._410dc5bd.FilterDesign2022 span:not(:first-child){margin-left:0}.d92d11c7:not(:first-child) ._933a9a61{border-top:none}.d92d11c7.FilterDesign2022:not(:last-child) ._933a9a61{margin-bottom:.4rem}._933a9a61{text-align:center;color:#222;border:1px solid #dedede;border-radius:.4rem;background-color:#fff}._933a9a61:hover{cursor:pointer;background-color:#f5f5f5}._933a9a61:hover._7172706b{background-color:inherit}._933a9a61:active, ._933a9a61:focus{outline:none}._933a9a61._8bfc3747{color:#fff;background-color:#49a8e5}._933a9a61.FilterDesign2022{font-size:1.5rem;font-weight:400;line-height:.5rem;border-radius:.4rem;border:none;padding-left:.6rem}._933a9a61.FilterDesign2022._8bfc3747{color:#28b16d;background-color:#e9f7f0;font-weight:700}._933a9a61.FilterDesign2022._8bfc3747:hover{background-color:#e9f7f0}._234b4f07.FilterDesign2022{width:100%;min-height:3rem}._15f47f89{font-size:1.5rem;font-weight:700;color:#4c4a4a;margin:0 .5rem 1.1rem}._02b72c8a{-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:0}._02b72c8a, ._3efbf302{display:-webkit-box;display:-ms-flexbox;display:flex}._3efbf302{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:1.5rem;text-overflow:ellipsis;text-align:center;color:#767676;-webkit-box-sizing:border-box;box-sizing:border-box;height:3.2rem;min-width:4.6rem;padding:0 1rem;cursor:pointer;white-space:nowrap;border:.1rem solid #dbdbdb;border-radius:1.8rem;margin:.4rem}._3efbf302:hover{background-color:#f5f5f5}._16d0f56f{margin-left:auto;margin-top:.5rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}@media screen and (max-width:1366px){._16d0f56f{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}._16d0f56f.FilterDesign2022{width:100%;margin-top:1rem;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}@media screen and (max-width:1366px){._16d0f56f.FilterDesign2022{-ms-flex-wrap:unset;flex-wrap:unset;-webkit-box-pack:unset;-ms-flex-pack:unset;justify-content:unset}}._2d04a3c4{font-size:1.13rem;margin-right:.5rem;color:#222;border:none;background:none}._2d04a3c4:hover{cursor:pointer}._2d04a3c4:active, ._2d04a3c4:focus{outline:none}@media screen and (max-width:1366px){._2d04a3c4{margin:.5rem auto}}._2d04a3c4.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border:.1rem solid #006169;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#fff;color:#006169}@media screen and (max-width:1366px){._2d04a3c4.FilterDesign2022{margin:.25rem .5rem .5rem}}._29a3713c{font-size:1.13rem;padding:.3rem .6rem;color:#fff;border:none;border-radius:.4rem;background-color:#222;height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}._29a3713c:hover{background-color:#000}._29a3713c:active, ._29a3713c:focus{outline:none}._29a3713c:hover{cursor:pointer;background-color:#006169}._29a3713c.FilterDesign2022{height:3.7rem;width:100%;font-weight:700;font-size:1.4rem;letter-spacing:.05rem;text-align:center;text-transform:capitalize;line-height:2.1rem;border-radius:.8rem;margin:.25rem .5rem .5rem;background-color:#006169}._29a3713c.FilterDesign2022:hover{cursor:pointer;background-color:#006169}
+
+ /*rent end */
+
     ._301c117f {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,6 +956,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
     font-weight: 700;
     margin-left: 0.5rem;
     margin-bottom: 1.1rem;
+    color: #0000007a;
 }
 ._7e06e165, ._7e22c61f {
   display: -webkit-box;
@@ -959,6 +983,7 @@ ul {
   font-weight: 700;
   margin-left: .5rem;
   margin-bottom: 1.1rem;
+  color: #0000005e;
 }
 ._07d91eaa, ._9410b81c {
   display: -webkit-box;
@@ -1183,26 +1208,28 @@ button .button, li {
             <div class="dd63c5c9 e4754d29 _5b75d6e0" aria-label="Mini form">
                 <div class="_580fbeeb _87de3797 FilterDesign2022">
                     <div class="ad62c515 _325092f0 _4a6228f4 _213f033d FilterDesign2022" aria-label="Purpose filter" name="purpose">
-                        <div class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">purpose</label>
+                        <div onclick="showRent()" class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">purpose</label>
                             <div role="button" aria-haspopup="true" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Rent</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
                                     <path class="cls-1" d="M12 6L6 0 0 6h12z"></path>
                                 </svg></div>
+                                <div id="showRent" onclick="stopClick(event)" class="_3f35dbb9 FilterDesign2022 _0caec95d" role="listbox"><div><div class="_600a7e43"><div class="d237e614">Purpose</div><div role="listbox" class="_410dc5bd FilterDesign2022"><span aria-selected="false" class="d92d11c7 FilterDesign2022"><button aria-label="Buy" class="_933a9a61 FilterDesign2022 _234b4f07">Buy</button></span><span aria-selected="true" class="d92d11c7 FilterDesign2022"><button aria-label="Rent" class="_933a9a61 FilterDesign2022 _234b4f07 _8bfc3747">Rent</button></span></div></div><div class="_600a7e43" aria-label="Frequency filter"><div class="_15f47f89">Rent Frequency</div><ul class="_02b72c8a"><li role="button" class="_3efbf302 _6699eaa6">Yearly</li><li role="button" class="_3efbf302">Monthly</li><li role="button" class="_3efbf302">Weekly</li><li role="button" class="_3efbf302">Daily</li><li role="button" class="_3efbf302">Any</li></ul></div></div><div class="_16d0f56f FilterDesign2022"><button class="_2d04a3c4 FilterDesign2022" aria-label="Reset" onclick="buttonAction('reload','rent')">Reset</button><button class="_29a3713c" aria-label="Close" onclick="buttonAction('done','rent')">Done</button></div></div>
                         </div>
                     </div>
                     <div class="ad62c515 a544e6c5 _4a6228f4 FilterDesign2022" aria-label="Location filter" name="location">
                         <div class="_3fa626dc FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">location</label>
                             <div class="b9e5541a _6a3a3de9 _4f597301">
                                 <div aria-label="Location filter" class="c97c9f73 _20376027 _3b14b7bd">
-                                    <ul class="_3d1890e1"></ul><input type="text" value="" placeholder="Enter location" autoComplete="off" spellcheck="false" class="a41c4dcc FilterDesign2022 b8ab28f4" />
+                                    <ul class="_3d1890e1"></ul><input onChange="addlocation(this)" type="text" value="" placeholder="Enter location" autoComplete="off" spellcheck="false" class="a41c4dcc FilterDesign2022 b8ab28f4" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="ad62c515 _6cbbaf12 FilterDesign2022" name="property type">
-                        <div class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">property type</label>
+                    <div class="ad62c515 _6cbbaf12 FilterDesign2022" style="display:none !important;" name="property type">
+                        <div onclick="showResidential()" class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">property type</label>
                             <div role="button" aria-haspopup="true" aria-label="Category filter" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Residential</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
                                     <path class="cls-1" d="M12 6L6 0 0 6h12z"></path>
                                 </svg></div>
+                                <div id="showResidential" onclick="stopClick(event)" class="_3f35dbb9 FilterDesign2022 _4c9282ef FilterDesign2022" role="listbox"><div><div><ul class="fe6db599" name="Category picker"><div class="_1cef7b64 FilterDesign2022"><li class="_05b994c0 FilterDesign2022 e7e540d2">Residential</li><li class="_05b994c0 FilterDesign2022">Commercial</li></div><div><div class="_97ab0b50"><li class="_31a8085a FilterDesign2022">Apartment</li><li class="_31a8085a FilterDesign2022">Townhouse</li><li class="_31a8085a FilterDesign2022">Villa-Compound</li><li class="_31a8085a FilterDesign2022">Residential-Plot</li><li class="_31a8085a FilterDesign2022">Residential-Building</li></div><div class="_97ab0b50"><li class="_31a8085a FilterDesign2022">Villa</li><li class="_31a8085a FilterDesign2022">Penthouse</li><li class="_31a8085a FilterDesign2022">Hotel-Apartment</li><li class="_31a8085a FilterDesign2022">Residential-Floor</li></div></div></ul></div></div><div class="_16d0f56f FilterDesign2022"><button  onclick="buttonAction('reload','resi')" class="_2d04a3c4 FilterDesign2022" aria-label="Reset">Reset</button><button class="e59368ca" onclick="buttonAction('done','resi')" aria-label="Close">Done</button></div></div>
                         </div>
                     </div>
                 </div>
@@ -1212,27 +1239,26 @@ button .button, li {
                             <div role="button" aria-haspopup="true" aria-label="Beds &amp; Baths filter" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Beds &amp; Baths</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
                                     <path class="cls-1" d="M12 6L6 0 0 6h12z"></path>
                                 </svg></div>
-                                <div id="showBedsNBaths" onclick="stopClick(event)" class="_0a772a68"><div class="_3f35dbb9 FilterDesign2022 _7ff7b946" role="listbox"><div><div class="_3158b7be">Beds</div><ul class="_7e22c61f" aria-label="Beds filter"><li role="button" class="_7e06e165">Studio</li><li role="button" class="_7e06e165">1</li><li role="button" class="_7e06e165">2</li><li role="button" class="_7e06e165">3</li><li role="button" class="_7e06e165">4</li><li role="button" class="_7e06e165">5</li><li role="button" class="_7e06e165">6</li><li role="button" class="_7e06e165">7</li><li role="button" class="_7e06e165">8+</li></ul><div class="_8f1ef08d">Baths</div><ul class="_07d91eaa" aria-label="Baths filter"><li role="button" class="_9410b81c">1</li><li role="button" class="_9410b81c">2</li><li role="button" class="_9410b81c">3</li><li role="button" class="_9410b81c">4</li><li role="button" class="_9410b81c">5</li><li role="button" class="_9410b81c">6+</li></ul></div><div class="_16d0f56f FilterDesign2022"><button onclick="buttonAction('reload')" class="_2d04a3c4 FilterDesign2022" aria-label="Reset">Reset</button><button onclick="buttonAction('done')" class="d01b9023" aria-label="Close">Done</button></div></div></div>
-                        </div>
+                                <div id="showBedsNBaths" onclick="stopClick(event)" class="_0a772a68"><div class="_3f35dbb9 FilterDesign2022 _7ff7b946" role="listbox"><div><div class="_3158b7be">Beds</div><ul class="_7e22c61f" aria-label="Beds filter"><li role="button" class="_7e06e165">Studio</li><li role="button" class="_7e06e165">1</li><li role="button" class="_7e06e165">2</li><li role="button" class="_7e06e165">3</li><li role="button" class="_7e06e165">4</li><li role="button" class="_7e06e165">5</li><li role="button" class="_7e06e165">6</li><li role="button" class="_7e06e165">7</li><li role="button" class="_7e06e165">8</li></ul><div class="_8f1ef08d">Baths</div><ul class="_07d91eaa" aria-label="Baths filter"><li role="button" class="_9410b81c">1</li><li role="button" class="_9410b81c">2</li><li role="button" class="_9410b81c">3</li><li role="button" class="_9410b81c">4</li><li role="button" class="_9410b81c">5</li><li role="button" class="_9410b81c">6</li></ul></div><div class="_16d0f56f FilterDesign2022"><button onclick="buttonAction('reload','bed')" class="_2d04a3c4 FilterDesign2022" aria-label="Reset">Reset</button><button onclick="buttonAction('done','bed')" class="d01b9023" aria-label="Close">Done</button></div></div></div>                        </div>
                     </div>
                     <div class="de486af6 _4a6228f4">
                         <div class="ad62c515 _158a936b _4a6228f4 FilterDesign2022" aria-label="Area filter" name="AREA (sqft)">
-                            <div class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">AREA (sqft)</label>
+                            <div onclick="showAreaSqft()" class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">AREA (sqft)</label>
                                 <div role="button" aria-haspopup="true" aria-label="Area filter" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Area (sqft)</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
                                         <path class="cls-1" d="M12 6L6 0 0 6h12z"></path>
                                     </svg></div>
+                                    <div id="showAreaSqft" onclick="stopClick(event)" class="_0a772a68"><div class="_3f35dbb9 FilterDesign2022 fdef0e1c FilterDesign2022" role="listbox"><div><div class="_813e6d60 FilterDesign2022"><div class="_90cecf69 FilterDesign2022"><span class="_5af635f0 FilterDesign2022">Minimum sqft</span><div id="activeInputContainer" class="_6d743a70"><div class="a0c631cb f2679835 FilterDesign2022"><input id="activeNumericInput" placeholder="0" class="fc3aef8f" locales="en-UK" spellcheck="false" value=""></div></div></div><div class="_90cecf69 FilterDesign2022"><span class="_5af635f0 FilterDesign2022">Maximum sqft</span><div id="inactiveInputContainer" class="_6d743a70"><div class="a0c631cb f2679835 FilterDesign2022"><input id="inactiveNumericInput" placeholder="Any" class="fc3aef8f" locales="en-UK" spellcheck="false" value=""></div></div></div></div></div><div class="_16d0f56f FilterDesign2022"><button class="_2d04a3c4 FilterDesign2022" aria-label="Reset" onclick="buttonAction('reload','sqft')">Reset</button><button class="_50c0c117" aria-label="Close" onclick="buttonAction('done','sqft')">Done</button></div></div></div>
                             </div>
                         </div>
                         <div class="ad62c515 fb35700b FilterDesign2022" aria-label="Price filter" name="Price (AED)">
-                            <div class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">Price (AED)</label>
-                                <div role="button" aria-haspopup="true" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Price (AED)</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
+                          <div onclick="showAreaPrice()" class="_9dc6d35d FilterDesign2022"><label class="_5176f8e1 FilterDesign2022" for="filter-title">AREA (sqft)</label>                                <div role="button" aria-haspopup="true" class="e7c6503c FilterDesign2022"><span class="ef5cccac FilterDesign2022"><span class="fontCompensation">Price (AED)</span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" class="eedc221b FilterDesign2022">
                                         <path class="cls-1" d="M12 6L6 0 0 6h12z"></path>
                                     </svg></div>
+                                    <div id="showAreaPrice" onclick="stopClick(event)" class="_0a772a68"><div class="_3f35dbb9 FilterDesign2022 fdef0e1c FilterDesign2022" role="listbox"><div><div class="_813e6d60 FilterDesign2022"><div class="_90cecf69 FilterDesign2022"><span class="_5af635f0 FilterDesign2022">Minimum price</span><div id="activeInputContainer" class="_6d743a70"><div class="a0c631cb f2679835 FilterDesign2022"><input id="activeNumericInputPrice" placeholder="0" class="fc3aef8f" locales="en-UK" spellcheck="false" value=""></div></div></div><div class="_90cecf69 FilterDesign2022"><span class="_5af635f0 FilterDesign2022">Maximum price</span><div id="inactiveInputContainer" class="_6d743a70"><div class="a0c631cb f2679835 FilterDesign2022"><input id="inactiveNumericInputPrice" placeholder="Any" class="fc3aef8f" locales="en-UK" spellcheck="false" value=""></div></div></div></div></div><div class="_16d0f56f FilterDesign2022"><button class="_2d04a3c4 FilterDesign2022" aria-label="Reset" onclick="buttonAction('reload','price')">Reset</button><button class="_50c0c117" aria-label="Close" onclick="buttonAction('done','price')">Done</button></div></div></div>
                             </div>
                         </div>
-                    </div><a href="/to-rent/property/uae/" role="button" design="FilterDesign2022" language="en" class="c3901770 f6d94e28 FilterDesign2022" aria-label="Find button">Find</a>
-                </div>
-                <div class="eeb4cd20" aria-label="Drive Time">
+                      </div><a id="homepagePropertyFilter" href="http://127.0.0.1:8080/?" role="button" design="FilterDesign2022" language="en" class="c3901770 f6d94e28 FilterDesign2022" aria-label="Find button">Find</a>                </div>
+                <div class="eeb4cd20" style="display: none !important;" aria-label="Drive Time">
                     <div class="_6a6236f7">Search 2.0</div>Find homes by drive time<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="_58fa6645" viewBox="0 0 32 32">
                         <path d="M7.55 3.36c-.8-.8-.7-2.1.1-2.8.8-.7 2-.7 2.7 0l14 14c.8.8.8 2 0 2.8l-14 14c-.8.8-2 .8-2.8.1-.8-.8-.8-2-.1-2.8l.1-.1 12.6-12.5-12.6-12.7z"></path>
                     </svg>
@@ -1243,14 +1269,51 @@ button .button, li {
 </div>
 
 <script>
-
-const elements = document.getElementsByClassName('_9410b81c');
-
-Array.from(elements).forEach(element => {
-    element.addEventListener('click', event => {
-        clickValues(event.currentTarget);
+const makeOnclick = (besElements , typeValue1, typeValue2, filterArray1) => {
+  var ele1 = document.getElementById('homepagePropertyFilter');
+  Array.from(besElements).forEach(element => {
+    element.addEventListener('click', event => {console.log('filterArray1',filterArray1);
+        let {value, remove} = clickValues(event.currentTarget);
+        let rmValue = filterArray1.length == 1 ? typeValue1+ filterArray1 : typeValue1+ filterArray1.join(',');
+        let regex = new RegExp(rmValue, 'g');
+        let occ = ele1.href.match(regex);
+        console.log(occ);
+        if(occ !== null && occ.length >= 1){
+          let rmValue2 = filterArray1.length == 1 ? typeValue2+ filterArray1 : typeValue2+ filterArray1.join(',');
+          ele1.href = ele1.href.replace(rmValue2,'');
+        }
+        if(remove === false){
+          // console.log(rmValue);
+          filterArray1.push(value);
+          ele1.href = ele1.href+typeValue2+ filterArray1.join(',');
+        } else{
+          if(filterArray1.length > 0){
+            let index = filterArray1.indexOf(value)
+            if(index !== -1){
+              filterArray1.splice(index, 1)
+              ele1.href = ele1.href+typeValue2+ filterArray1.join(',');
+              // if(filterArray1.length == 0){
+              //   ele1.href = ele1.href+"?beds=,";
+              // }
+            }
+          }
+        }
+        console.log(ele1.href);
     });
 });
+}
+const besElements = document.getElementsByClassName('_9410b81c');
+const filterArray1 = [];
+const bathElements = document.getElementsByClassName('_7e06e165');
+const filterArray2 = [];
+const RentElements = document.getElementsByClassName('_3efbf302');
+const filterArray3 = [];
+const ResiElements = document.getElementsByClassName('_31a8085a');
+const filterArray4 = [];
+makeOnclick(bathElements, "beds=", "&beds=", filterArray1);
+makeOnclick(besElements, "baths=", "&baths=", filterArray2);
+makeOnclick(RentElements, "rents=", "&rents=", filterArray3);
+makeOnclick(ResiElements, "resi=", "&resi=", filterArray4);
 
 const clickValues = (ele) => {
     let string = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" viewBox="0 0 16 12" class="e0966ba2"><path fill="#249F62" d="M15.08 1.18l-10 10L.5 6.6l1.18-1.17 3.4 3.4L13.9 0l1.17 1.18z"></path></svg>  ';
@@ -1259,16 +1322,51 @@ const clickValues = (ele) => {
         let html2 = ele.innerHTML.replace(string, '' )
         ele.innerHTML = html2;
         ele.classList.remove('c86e55cb');
-        return;
+        let res = {
+          'value' : ele.innerHTML,
+          'remove' : true,
+        }
+        return res;
     }
-    console.log(ele.innerHTML);
+    let FILTER = document.getElementById('homepagePropertyFilter');
+    let filterValue = "";
+    let v = ele.innerHTML;
     ele.innerHTML = html;
     ele.classList.add('c86e55cb');
+    let res = {
+          'value' : v,
+          'remove' : false,
+        }
+    return res;
 };
 
 const showBedsNBaths = () => {
-    console.log('k');
+  console.log('k');
     const element = document.getElementById('showBedsNBaths');
+    element.style.display = (element.style.display === 'block') ? 'none' : 'block';
+
+};
+const showAreaSqft = () => {
+    console.log('k');
+    const element = document.getElementById('showAreaSqft');
+    element.style.display = (element.style.display === 'block') ? 'none' : 'block';
+};
+
+const showAreaPrice = () => {
+    console.log('k');
+    const element = document.getElementById('showAreaPrice');
+    element.style.display = (element.style.display === 'block') ? 'none' : 'block';
+};
+
+const showResidential = () => {
+    console.log('k');
+    const element = document.getElementById('showResidential');
+    element.style.display = (element.style.display === 'block') ? 'none' : 'block';
+};
+
+const showRent = () => {
+    console.log('k');
+    const element = document.getElementById('showRent');
     element.style.display = (element.style.display === 'block') ? 'none' : 'block';
 };
 
@@ -1276,13 +1374,210 @@ const stopClick = () => {
     event.stopPropagation();
 }
 
-const buttonAction = (type) => {
+const buttonAction = (type, type2) => {
+  var ele1 = document.getElementById('homepagePropertyFilter');
     if(type === 'reload'){
-        window.location.reload();
+      if(type2 == 'bed'){
+        const besElements = document.getElementsByClassName('_9410b81c');
+        const bathElements = document.getElementsByClassName('_7e06e165');
+        Array.from(besElements).forEach(element => {
+          removeTick(element);
+        })
+        Array.from(bathElements).forEach(element => {
+          removeTick(element);
+        })
+        console.log(filterArray2);
+        if(filterArray2.length > 0){
+          let rmValue = filterArray2.length == 1 ? "&baths="+ filterArray2 : "&baths="+ filterArray2.join(',');
+          let regex = new RegExp(rmValue, 'g');
+          let occ = ele1.href.match(regex);
+          if(occ !== null && occ.length > 0){
+            let rmValue2 = filterArray2.length == 1 ? "&baths="+ filterArray2 : "&baths="+ filterArray2.join(',');
+            console.log('rmValue2',rmValue2);
+            console.log('ele1.href',ele1.href);
+            ele1.href = ele1.href.replace(rmValue2,'');
+            console.log('ele1.href',ele1.href);
+          }
+        }
+        if(filterArray1.length > 0){
+          let rmValue = filterArray1.length == 1 ? "&beds="+ filterArray1 : "&beds="+ filterArray1.join(',');
+          let regex = new RegExp(rmValue, 'g');
+          let occ = ele1.href.match(regex);
+          if(occ !== null && occ.length > 0){
+            let rmValue2 = filterArray1.length == 1 ? "&beds="+ filterArray1 : "&beds="+ filterArray1.join(',');
+            ele1.href = ele1.href.replace(rmValue2,'');
+          }
+        }
+        filterArray1.length = 0; filterArray2.length = 0;
+        } else if(type2 == 'rent'){
+          const rentElements = document.getElementsByClassName('_3efbf302');
+          Array.from(rentElements).forEach(element => {
+            removeTick(element);
+          })
+          if(filterArray3.length > 0){
+            let rmValue = filterArray3.length == 1 ? "&rents="+ filterArray3 : "&rents="+ filterArray3.join(',');
+            let regex = new RegExp(rmValue, 'g');
+            let occ = ele1.href.match(regex);
+            if(occ !== null && occ.length > 0){
+              let rmValue2 = filterArray3.length == 1 ? "&rents="+ filterArray3 : "&rents="+ filterArray3.join(',');
+              ele1.href = ele1.href.replace(rmValue2,'');
+            }
+          }
+          filterArray3.length = 0;
+        } else if(type2 == 'resi'){
+          const resiElements = document.getElementsByClassName('_31a8085a');
+          Array.from(resiElements).forEach(element => {
+            removeTick(element);
+          })
+          if(filterArray4.length > 0){
+            let rmValue = filterArray4.length == 1 ? "&resi="+ filterArray4 : "&resi="+ filterArray4.join(',');
+            let regex = new RegExp(rmValue, 'g');
+            let occ = ele1.href.match(regex);
+            if(occ !== null && occ.length > 0){
+              let rmValue2 = filterArray4.length == 1 ? "&resi="+ filterArray4 : "&resi="+ filterArray4.join(',');
+              ele1.href = ele1.href.replace(rmValue2,'');
+            }
+          }
+          filterArray4.length = 0;
+        } else if(type2 == 'sqft'){
+          let maxSqft = document.getElementById('activeNumericInput');
+          let minSqft = document.getElementById('inactiveNumericInput');
+          ele1.href = updateUrlParameter(ele1.href, 'maxSqft', '');
+          ele1.href = updateUrlParameter(ele1.href, 'minSqft', '');
+          maxSqft.value = 0;
+          minSqft.value = 0;
+          console.log(ele1.href);
+        } else if(type2 == 'price'){
+          let maxAMT = document.getElementById('activeNumericInputPrice');
+          let minAMT = document.getElementById('inactiveNumericInputPrice');
+          ele1.href = updateUrlParameter(ele1.href, 'maxAMT', '');
+          ele1.href = updateUrlParameter(ele1.href, 'minAMT', '');
+          maxAMT.value = 0;
+          minAMT.value = 0;
+          console.log(ele1.href);
+      }
     } else{
-        const element = document.getElementById('showBedsNBaths');
-        element.style.display = 'none';
+      if(type2 == 'bed'){
+        const element1 = document.getElementById('showBedsNBaths');
+        element1.style.display = 'none';
+      } else if(type2 == 'resi'){
+        const element1 = document.getElementById('showResidential');
+        element1.style.display = 'none';
+      } else if(type2 == 'rent'){
+        const element1 = document.getElementById('showRent');
+        element1.style.display = 'none';
+      } else if(type2 == 'sqft'){
+        let maxSqft = document.getElementById('inactiveNumericInput').value;
+        let minSqft = document.getElementById('activeNumericInput').value;
+        console.log('maxSqft',maxSqft);
+        console.log('minSqft',minSqft);
+        const element2 = document.getElementById('showAreaSqft');
+        let rmValue = "maxSqft=";
+        let regex = new RegExp(rmValue, 'g');
+        let occ = ele1.href.match(regex);
+        let flag = false;
+        if(occ !== null && occ.length >= 1){
+          flag = true;
+          console.log('1');
+          var updatedUrl = updateUrlParameter(ele1.href, 'maxSqft', maxSqft);
+          ele1.href = updatedUrl;
+        }
+        let rmValue2 = "minSqft=";
+        let regex2 = new RegExp(rmValue2, 'g');
+        let occ2 = ele1.href.match(regex2);
+        if(occ2 !== null && occ2.length >= 1){
+          flag = true;
+          var updatedUrl = updateUrlParameter(ele1.href, 'minSqft', minSqft);
+          ele1.href = updatedUrl;
+        }
+        if(flag === false){
+          console.log('2');
+          ele1.href = ele1.href+"&minSqft="+(minSqft??0)+"&maxSqft="+(maxSqft??0);
+        }
+        element2.style.display = 'none';
+        console.log(ele1.href);
+      } else if(type2 == 'price'){
+        let maxAMT = document.getElementById('inactiveNumericInputPrice').value;
+        let minAMT = document.getElementById('activeNumericInputPrice').value;
+        const element2 = document.getElementById('showAreaPrice');
+        let rmValue = "maxAMT=";
+        let regex = new RegExp(rmValue, 'g');
+        let occ = ele1.href.match(regex);
+        let flag = false;
+        if(occ !== null && occ.length >= 1){
+          flag = true;
+          var updatedUrl = updateUrlParameter(ele1.href, 'maxAMT', maxAMT);
+          ele1.href = updatedUrl;
+        }
+        let rmValue2 = "minAMT=";
+        let regex2 = new RegExp(rmValue2, 'g');
+        let occ2 = ele1.href.match(regex2);
+        if(occ2 !== null && occ2.length >= 1){
+          flag = true;
+          var updatedUrl = updateUrlParameter(ele1.href, 'minAMT', minAMT);
+          ele1.href = updatedUrl;
+        }
+        if(flag === false){
+          ele1.href = ele1.href+"&minAMT="+(minAMT??0)+"&maxAMT="+(maxAMT??0);
+        }
+        element2.style.display = 'none';
+        console.log(ele1.href);
+      }
+      // console.log(ele1.href);
     }
+  }
+
+function updateUrlParameter(url, key, value) {
+    var urlParts = url.split('&');
+    if (urlParts.length >= 2) {
+        var baseUrl = urlParts[0];
+        var params = urlParts;
+        var updatedParams = [];
+
+        var keyExists = false;
+
+        for (var i = 0; i < params.length; i++) {
+          if(i > 0){
+            var paramKeyValue = params[i].split('=');
+            console.log(urlParts);
+            // Check if the current parameter matches the key
+            if (paramKeyValue[0] === key) {
+                updatedParams.push(key + '=' + value);
+                keyExists = true;
+            } else {
+                updatedParams.push(params[i]);
+            }
+          }
+        }
+
+        // If the key was not found, add it to the parameters
+        if (!keyExists) {
+            updatedParams.push(key + '=' + value);
+        }
+
+        var updatedUrl = baseUrl + '&' + updatedParams.join('&');
+        return updatedUrl;
+    }
+
+    return url;
 }
+const removeTick = (element) => {
+  let string = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="none" viewBox="0 0 16 12" class="e0966ba2"><path fill="#249F62" d="M15.08 1.18l-10 10L.5 6.6l1.18-1.17 3.4 3.4L13.9 0l1.17 1.18z"></path></svg>  ';
+  let html = string + element.innerHTML;
+  if(element.innerHTML.includes(string)){
+      let html2 = element.innerHTML.replace(string, '' )
+      element.innerHTML = html2;
+      element.classList.remove('c86e55cb');
+  }
+}
+
+const addlocation = (ele) => {
+  var ele1 = document.getElementById('homepagePropertyFilter');
+  ele1.href = ele1.href+"&location="+ele.value;
+  console.log(ele1.href);
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 </script>

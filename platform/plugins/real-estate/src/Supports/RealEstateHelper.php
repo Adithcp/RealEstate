@@ -92,16 +92,28 @@ class RealEstateHelper
         return '.';
     }
 
-    public function getPropertyDisplayQueryConditions(): array
+    public function getPropertyDisplayQueryConditions($filters=''): array
     {
+        // dd($filters['beds']);
         $conditions = [
             're_properties.moderation_status' => ModerationStatusEnum::APPROVED,
         ];
+        // if ($filters['baths'] != ''){
+        //     $conditions = [
+        //         'number_bathroom' => $filters['baths'] 
+        //     ];
+        // }
+        
+        // if ($filters['beds'] != '') {
+        //     $conditions = [
+        //         'number_bedroom' => $filters['beds']
+        //     ];
+        // }
+        
 
         foreach ($this->exceptedPropertyStatuses() as $status) {
             $conditions[] = ['re_properties.status', '!=', $status];
         }
-
         return $conditions;
     }
 

@@ -1,4 +1,4 @@
-<x-core-base::modal
+<!-- <x-core-base::modal
     class="get-started-modal"
     size="lg"
     :options="['data-step' => 1]"
@@ -244,4 +244,4 @@
             </p>
         </div>
     </div>
-</x-core-base::modal>
+</x-core-base::modal> -->

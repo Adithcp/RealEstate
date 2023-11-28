@@ -276,7 +276,7 @@ class RealEstateServiceProvider extends ServiceProvider
                     'id' => 'cms-plugins-real-estate-account',
                     'priority' => 22,
                     'parent_id' => null,
-                    'name' => 'plugins/real-estate::account.name',
+                    'name' => 'plugins/real-estate::account.new_name',
                     'icon' => 'fa fa-users',
                     'url' => route('account.index'),
                     'permissions' => ['account.index'],

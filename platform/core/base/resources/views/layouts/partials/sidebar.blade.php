@@ -1,4 +1,7 @@
 @foreach ($menus = DashboardMenu::getAll() as $menu)
+    @if(in_array($menu['id'],['cms-core-page', 'cms-plugins-blog', 'cms-plugins-newsletter', 'cms-plugins-consult', 'cms-plugins-package', 'cms-plugins-contact', 'cms-plugins-payments', 'cms-plugins-location', 'cms-core-media', 'cms-core-appearance', 'cms-core-plugins', 'cms-plugin-translation', 'cms-core-settings', 'cms-core-platform-administration']))
+        <?php continue; ?>
+    @endif
     @php $menu = apply_filters(BASE_FILTER_DASHBOARD_MENU, $menu); @endphp
     <li class="nav-item @if ($menu['active']) active @endif" id="{{ $menu['id'] }}">
         <a href="{{ $menu['url'] }}" class="nav-link nav-toggle">
@@ -11,6 +14,9 @@
         @if (isset($menu['children']) && count($menu['children']))
             <ul class="sub-menu @if (!$menu['active']) hidden-ul @endif">
                 @foreach ($menu['children'] as $item)
+                @if($menu['id'] == 'cms-plugins-real-estate' && in_array($item['id'],['cms-plugins-real-estate-invoice','cms-plugins-real-estate-invoice-template','cms-plugins-real-estate-custom-fields','cms-plugins-real-estate-settings']))
+                    <?php continue; ?>
+                @endif
                     <li class="nav-item @if ($item['active']) active @endif" id="{{ $item['id'] }}">
                         <a href="{{ $item['url'] }}" class="nav-link">
                             <i class="{{ $item['icon'] }}"></i>

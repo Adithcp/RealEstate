@@ -20,6 +20,8 @@ use Botble\Testimonial\Repositories\Interfaces\TestimonialInterface;
 use Botble\Theme\Facades\Theme;
 use Botble\Theme\Supports\ThemeSupport;
 use Botble\Theme\Supports\Youtube;
+use Illuminate\Http\Request;
+use Botble\RealEstate\Models\Property;
 
 app()->booted(function () {
     ThemeSupport::registerGoogleMapsShortcode();
@@ -77,16 +79,38 @@ app()->booted(function () {
             if ($shortcode->type) {
                 $conditions['re_properties.type'] = $shortcode->type;
             }
-
-            $properties = app(PropertyInterface::class)->advancedGet([
-                'condition' => $conditions + RealEstateHelper::getPropertyDisplayQueryConditions(),
-                'take' => (int)$shortcode->limit ?: 6,
-                'order_by' => ['created_at' => 'DESC'],
-                'with' => RealEstateHelper::getPropertyRelationsQuery(),
-                'withCount' => 'reviews',
-                'withAvg' => ['reviews', 'star'],
-            ]);
-
+            $request = request()->all();
+            if(!empty($request)){
+                $properties = Property::when(isset($request['baths']), function($query) use($request) {
+                        $baths = explode(',',$request['baths']);
+                        return $query->whereIn('number_bathroom', $baths);
+                    })
+                    ->when(isset($request['beds']), function($query) use($request) {
+                        $beds = explode(',',$request['beds']);
+                        return $query->where('number_bedroom', $beds);
+                    })
+                    ->when(isset($request['rents']), function ($query) use($request) {
+                        return $query->where('type', 'rent')->where('period', $request['rents']);
+                    })
+                    ->when(isset($request['location']), function($query) use($request) {
+                        return $query->where('location', 'like', '%'. $request['location']. '%');
+                    })
+                    ->when(isset($request['minAMT']) || isset($request['maxAMT']), function($query) use($request) {
+                        return $query->whereBetween('price', [($request['minAMT'] ?? 0), ($request['maxAMT'] ?? 0)]);
+                    })
+                    ->when(isset($request['minSqft']) || isset($request['maxSqft']), function($query) use($request) {
+                        return $query->whereBetween('square', [$request['minSqft'] ?? 0, $request['maxSqft'] ?? 0]);
+                    })->get();
+            } else {
+                $properties = app(PropertyInterface::class)->advancedGet([
+                    'condition' => $conditions + RealEstateHelper::getPropertyDisplayQueryConditions($request),
+                    'take' => (int)$shortcode->limit ?: 25,
+                    'order_by' => ['created_at' => 'DESC'],
+                    'with' => RealEstateHelper::getPropertyRelationsQuery(),
+                    'withCount' => 'reviews',
+                    'withAvg' => ['reviews', 'star'],
+                ]);
+            }
             return Theme::partial('shortcodes.featured-properties.index', compact('shortcode', 'properties'));
         });
 
@@ -119,8 +143,31 @@ app()->booted(function () {
             Theme::asset()->container('footer')->usePath()->add('filter', 'js/filter.js');
             Theme::asset()->container('footer')->usePath()->add('wishlist', 'js/wishlist.js');
 
-            $properties = RealEstateHelper::getPropertiesFilter((int)$shortcode->per_page ?: 12, RealEstateHelper::getReviewExtraData());
-
+            $request = request()->all();
+            if(!empty($request)){
+                $properties = Property::when(isset($request['baths']), function($query) use($request) {
+                    $baths = explode(',',$request['baths']);
+                    return $query->whereIn('number_bathroom', $baths);
+                })
+                ->when(isset($request['beds']), function($query) use($request) {
+                    $beds = explode(',',$request['beds']);
+                    return $query->where('number_bedroom', $beds);
+                })
+                ->when(isset($request['rents']), function ($query) use($request) {
+                    return $query->where('type', 'rent')->where('period', $request['rents']);
+                })
+                ->when(isset($request['location']), function($query) use($request) {
+                    return $query->where('location', 'like', '%'. $request['location']. '%');
+                })
+                ->when(isset($request['minAMT']) || isset($request['maxAMT']), function($query) use($request) {
+                    return $query->whereBetween('price', [($request['minAMT'] ?? 0), ($request['maxAMT'] ?? 0)]);
+                })
+                ->when(isset($request['minSqft']) || isset($request['maxSqft']), function($query) use($request) {
+                    return $query->whereBetween('square', [$request['minSqft'] ?? 0, $request['maxSqft'] ?? 0]);
+                })->get();
+            } else {
+                $properties = RealEstateHelper::getPropertiesFilter((int)$shortcode->per_page ?: 12, RealEstateHelper::getReviewExtraData());
+            }
             $showMap = false;
 
             if (request()->input('layout') == 'map') {
