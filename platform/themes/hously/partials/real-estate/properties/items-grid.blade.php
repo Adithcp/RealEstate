@@ -20,7 +20,10 @@
                         </div>
                     @endif
                     <div class="absolute bottom-0 flex text-sm start-0 item-info-wrap">
-                        <span class="flex items-center py-1 ps-6 pe-4 text-white">{{ $property->category->name }}</span>
+                        @if ($property->beach_view != 0)
+                            <span class="flex items-center py-1 ps-6 pe-4 text-white">Beach view</span>
+                        @endif
+                        <span class="flex items-center py-1 ps-6 pe-4 text-white" style="background-color: yellow;">{{ $property->category->name }}</span>
                         {!! $property->status->toHtml() !!}
                     </div>
                 </div>

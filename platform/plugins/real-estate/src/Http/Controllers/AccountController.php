@@ -60,13 +60,15 @@ class AccountController extends BaseController
         $account->password = Hash::make($request->input('password'));
         $account->dob = Carbon::parse($request->input('dob'))->toDateString();
 
+        $account->developer_id = $request->developer_id ?? null;
+
         if ($request->input('avatar_image')) {
             $image = app(MediaFileInterface::class)->getFirstBy(['url' => $request->input('avatar_image')]);
             if ($image) {
                 $account->avatar_id = $image->id;
             }
         }
-
+        // dd($account,$request->all());
         $account = $this->accountRepository->createOrUpdate($account);
 
         event(new CreatedContentEvent(ACCOUNT_MODULE_SCREEN_NAME, $request, $account));
@@ -84,6 +86,7 @@ class AccountController extends BaseController
         PageTitle::setTitle(trans('plugins/real-estate::account.edit', ['name' => $account->name]));
 
         $account->password = null;
+        // dd($account);
 
         return $formBuilder
             ->create(AccountForm::class, ['model' => $account])
@@ -108,6 +111,8 @@ class AccountController extends BaseController
                 $account->avatar_id = $image->id;
             }
         }
+
+        $account->developer_id = $request->developer_id ?? null;
 
         $account->is_featured = $request->input('is_featured');
         $account = $this->accountRepository->createOrUpdate($account);

@@ -54,7 +54,7 @@
             <ul class="p-0 space-x-4 m-0 list-none buy-button">
                 {!! Theme::partial('language-switcher.language-switcher') !!}
                 @if(RealEstateHelper::isLoginEnabled())
-                    <li class="inline mb-0">
+                    <li style="display: none !important;" class="inline mb-0">
                         <a href="{{ route('public.account.login') }}" class="text-white rounded-full btn btn-icon bg-primary hover:bg-secondary border-primary dark:border-primary" aria-label="{{ __('Sign in') }}">
                             <i data-feather="user" class="h-4 w-4 stroke-[3]"></i>
                         </a>

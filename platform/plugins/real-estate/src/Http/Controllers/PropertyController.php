@@ -113,6 +113,7 @@ class PropertyController extends BaseController
         $property->images = array_filter($request->input('images', []));
         $property->moderation_status = $request->input('moderation_status');
         $property->never_expired = $request->input('never_expired');
+        $property->beach_view = $request->input('beach_view');
 
         $this->propertyRepository->createOrUpdate($property);
 

@@ -6,7 +6,7 @@
 
 @if(RealEstateHelper::isEnabledReview())
     @php($canReview = auth('account')->check() && auth('account')->user()->canReview($model))
-    <div class="px-3 lg:w-2/3 md:w-1/2 md:p-4">
+    <div class="px-3 lg:w-2/3 md:w-1/2 md:p-4" style="display: none !important">
         <div class="p-6 rounded-lg bg-slate-50 dark:bg-slate-800">
             <div>
                 <h3 class="pb-5 text-xl font-semibold">{{ __('Write a review') }}</h3>

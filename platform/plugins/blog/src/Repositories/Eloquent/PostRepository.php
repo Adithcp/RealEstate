@@ -193,6 +193,21 @@ class PostRepository extends RepositoriesAbstract implements PostInterface
         return $this->applyBeforeExecuteQuery($data)->paginate($perPage);
     }
 
+    public function getAllPostsNew(
+        int $perPage = 12,
+        bool $active = true,
+        array $with = ['slugable']
+    ): Collection {
+        $data = $this->model
+            ->with($with)
+            ->orderBy('created_at', 'desc');
+
+        if ($active) {
+            $data = $data->where('status', BaseStatusEnum::PUBLISHED);
+        }
+        return $this->applyBeforeExecuteQuery($data)->get();
+    }
+
     public function getPopularPosts(int $limit, array $args = []): Collection
     {
         $data = $this->model

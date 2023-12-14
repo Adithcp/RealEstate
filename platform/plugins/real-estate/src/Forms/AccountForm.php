@@ -9,13 +9,33 @@ use Botble\RealEstate\Facades\RealEstateHelper;
 use Botble\RealEstate\Http\Requests\AccountCreateRequest;
 use Botble\RealEstate\Models\Account;
 use Carbon\Carbon;
+use Botble\Blog\Repositories\Interfaces\PostInterface;
 
 class AccountForm extends FormAbstract
 {
+    public function __construct(
+        protected PostInterface $postRepository,
+    ) {
+        parent::__construct();
+    }
     protected $template = 'plugins/real-estate::account.admin.form';
 
     public function buildForm(): void
     {
+        $posts = $this->postRepository->pluck('name', 'id');
+
+        // $selectedCategories = [];
+        // if ($this->getModel()) {
+        //     $selectedCategories = $this->getModel()->categories()->pluck('id')->all();
+        // }
+
+        // if (empty($selectedCategories)) {
+        //     $selectedCategories = app(PostInterface::class)
+        //         ->getModel()
+        //         ->where('status', 'published')
+        //         ->pluck('id')
+        //         ->all();
+        // }
         Assets::addStylesDirectly('vendor/core/plugins/real-estate/css/account-admin.css')
             ->addScriptsDirectly(['/vendor/core/plugins/real-estate/js/account-admin.js']);
 
@@ -67,6 +87,18 @@ class AccountForm extends FormAbstract
                     'data-counter' => 20,
                 ],
             ])
+            ->add('developer_id', 'customSelect', [
+                    // 'label' => trans('real-estate::account.developer'),
+                    // 'label_attr' => ['class' => 'control-label required'],
+                    // 'choices' => get_posts(),
+                    // 'value' => old('developer', $selectedCategories),
+                    'label' => trans('plugins/real-estate::account.developer'),
+                    'label_attr' => ['class' => 'control-label'],
+                    'attr' => [
+                        'class' => 'form-control select-search-full',
+                    ],
+                    'choices' => [0 => trans('plugins/real-estate::account.developer')] + $posts,
+                ])
             ->add('dob', 'datePicker', [
                 'label' => trans('plugins/real-estate::account.dob'),
                 'label_attr' => ['class' => 'control-label'],

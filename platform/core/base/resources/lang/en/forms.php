@@ -50,4 +50,12 @@ return [
     'view_new_tab' => 'Open in new tab',
     'view_preview_image' => 'View preview image',
     'edit_item' => 'Edit ":name"',
+    'beach_view' => 'Beach View',
+    'form_name' => 'Name',
+    'form_name_placeholder' => 'Name',
+    'form_star' => 'Star',
+    'form_star_placeholder' => 'Star',
+    'form_content' => 'Content',
+    'form_content_placeholder' => 'Content',
+    'form_status' => 'Status',
 ];

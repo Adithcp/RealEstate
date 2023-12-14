@@ -135,7 +135,7 @@ class HookServiceProvider extends ServiceProvider
 
         theme_option()
             ->setSection([
-                'title' => 'Blog',
+                'title' => 'Developer',
                 'desc' => 'Theme options for Blog',
                 'id' => 'opt-text-subsection-blog',
                 'subsection' => true,
@@ -144,9 +144,9 @@ class HookServiceProvider extends ServiceProvider
                     [
                         'id' => 'blog_page_id',
                         'type' => 'customSelect',
-                        'label' => trans('plugins/blog::base.blog_page_id'),
+                        'label' => trans('plugins/blog::base.developer'),
                         'attributes' => [
-                            'name' => 'blog_page_id',
+                            'new_name' => 'blog_page_id',
                             'list' => ['' => trans('plugins/blog::base.select')] + $pages,
                             'value' => '',
                             'options' => [

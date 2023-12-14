@@ -118,6 +118,11 @@ class PropertyForm extends FormAbstract
                 'label_attr' => ['class' => 'control-label'],
                 'default_value' => false,
             ])
+            ->add('beach_view', 'onOff', [
+                'label' => trans('core/base::forms.beach_view'),
+                'label_attr' => ['class' => 'control-label'],
+                'default_value' => false,
+            ])
             ->add('description', 'textarea', [
                 'label' => trans('core/base::forms.description'),
                 'label_attr' => ['class' => 'control-label'],

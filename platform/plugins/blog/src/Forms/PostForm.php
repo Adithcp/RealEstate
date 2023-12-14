@@ -62,31 +62,35 @@ class PostForm extends FormAbstract
                     'data-counter' => 400,
                 ],
             ])
-            ->add('is_featured', 'onOff', [
-                'label' => trans('core/base::forms.is_featured'),
-                'label_attr' => ['class' => 'control-label'],
-                'default_value' => false,
-            ])
-            ->add('content', 'editor', [
-                'label' => trans('core/base::forms.content'),
-                'label_attr' => ['class' => 'control-label'],
-                'attr' => [
-                    'rows' => 4,
-                    'placeholder' => trans('core/base::forms.description_placeholder'),
-                    'with-short-code' => true,
-                ],
-            ])
-            ->add('status', 'customSelect', [
-                'label' => trans('core/base::tables.status'),
-                'label_attr' => ['class' => 'control-label required'],
-                'choices' => BaseStatusEnum::labels(),
-            ])
-            ->add('categories[]', 'categoryMulti', [
-                'label' => trans('plugins/blog::posts.form.categories'),
-                'label_attr' => ['class' => 'control-label required'],
-                'choices' => get_categories_with_children(),
-                'value' => old('categories', $selectedCategories),
-            ])
+            // ->add('is_featured', 'onOff', [
+            //     'label' => trans('core/base::forms.is_featured'),
+            //     'label_attr' => ['class' => 'control-label'],
+            //     'default_value' => false,
+            // ])
+            // ->add('content', 'editor', [
+            //     'label' => trans('core/base::forms.content'),
+            //     'label_attr' => ['class' => 'control-label'],
+            //     'attr' => [
+            //         'rows' => 4,
+            //         'placeholder' => trans('core/base::forms.description_placeholder'),
+            //         'with-short-code' => true,
+            //     ],
+            // ])
+            // ->add('status', 'customSelect', [
+            //     'label' => trans('core/base::tables.status'),
+            //     'label_attr' => ['class' => 'control-label required'],->add('status', 'customSelect', [
+            //     'label' => trans('core/base::tables.status'),
+            //     'label_attr' => ['class' => 'control-label required'],
+            //     'choices' => BaseStatusEnum::labels(),
+            // ])
+            //     'choices' => BaseStatusEnum::labels(),
+            // ])
+            // ->add('categories[]', 'categoryMulti', [
+            //     'label' => trans('plugins/blog::posts.form.categories'),
+            //     'label_attr' => ['class' => 'control-label required'],
+            //     'choices' => get_categories_with_children(),
+            //     'value' => old('categories', $selectedCategories),
+            // ])
             ->add('image', 'mediaImage', [
                 'label' => trans('core/base::forms.image'),
                 'label_attr' => ['class' => 'control-label'],

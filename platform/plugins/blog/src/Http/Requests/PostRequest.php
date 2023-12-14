@@ -13,10 +13,10 @@ class PostRequest extends Request
     {
         $rules = [
             'name' => 'required|string|max:255',
-            'description' => 'nullable|string|max:400',
+            'description' => 'required|string|max:400',
             'content' => 'nullable|string',
             'tag' => 'nullable|string',
-            'categories' => 'required|array',
+            'categories' => 'nullable|array',
             'status' => Rule::in(BaseStatusEnum::values()),
         ];
 

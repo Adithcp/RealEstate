@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'developer' => 'developer',
     'create' => 'New agents',
     'edit' => 'Edit account ":name"',
     'name' => 'Agents',
@@ -34,4 +35,11 @@ return [
     'dob' => 'Date of birth',
     'number_of_properties' => 'Number of properties',
     'agents' => 'Agents',
+    'form_name' => 'Name',
+    'form_name_placeholder' => 'Name',
+    'form_star' => 'Star',
+    'form_star_placeholder' => 'Star',
+    'form_content' => 'Content',
+    'form_content_placeholder' => 'Content',
+    'form_status' => 'Status',
 ];

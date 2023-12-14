@@ -154,6 +154,11 @@ class ReviewTable extends TableAbstract
         return $this->addDeleteAction(route('review.deletes'), 'review.destroy', parent::bulkActions());
     }
 
+    public function buttons(): array
+    {
+        return $this->addCreateButton(route('review.create'), 'review.create');
+    }
+
     public function getBulkChanges(): array
     {
         return [

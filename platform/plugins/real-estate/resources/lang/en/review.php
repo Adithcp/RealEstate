@@ -6,6 +6,7 @@ return [
     'star' => 'Star',
     'content' => 'Content',
     'reviewable' => 'Reviewable',
+    'create' => 'Create',
     'moderation-statuses' => [
         'pending' => 'Pending',
         'approved' => 'Approved',

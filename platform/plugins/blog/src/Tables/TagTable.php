@@ -6,6 +6,7 @@ use Botble\Base\Enums\BaseStatusEnum;
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Facades\Html;
 use Botble\Blog\Models\Tag;
+use Botble\RealEstate\Models\Review;
 use Botble\Table\Abstracts\TableAbstract;
 use Botble\Table\DataTables;
 use Illuminate\Contracts\Routing\UrlGenerator;
@@ -65,6 +66,7 @@ class TagTable extends TableAbstract
 
     public function query(): Relation|Builder|QueryBuilder
     {
+        // $da = Review::get();dd($da);
         $query = $this
             ->getModel()
             ->query()
@@ -88,6 +90,18 @@ class TagTable extends TableAbstract
             'name' => [
                 'title' => trans('core/base::tables.name'),
                 'class' => 'text-start',
+            ],
+            'reviewable' => [
+                'title' => trans('core/base::tables.reviewable'),
+                'width' => '100px',
+            ],
+            'star' => [
+                'title' => trans('core/base::tables.star'),
+                'width' => '100px',
+            ],
+            'contant' => [
+                'title' => trans('core/base::tables.contant'),
+                'width' => '100px',
             ],
             'status' => [
                 'title' => trans('core/base::tables.status'),

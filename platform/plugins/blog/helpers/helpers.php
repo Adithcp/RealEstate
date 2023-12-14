@@ -164,6 +164,17 @@ if (! function_exists('get_categories_with_children')) {
     }
 }
 
+if (! function_exists('get_posts')) {
+    function get_posts(): array
+    {
+        $posts =  app(PostInterface::class)->getAllPostsNew($perPage=10, $active=true, $with=[]);
+        return app(SortItemsWithChildrenHelper::class)
+            ->setChildrenProperty('child_cats')
+            ->setItems($posts)
+            ->sort();
+    }
+}
+
 if (! function_exists('register_post_format')) {
     function register_post_format(array $formats): void
     {

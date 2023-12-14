@@ -129,12 +129,12 @@ class PostTable extends TableAbstract
                 'title' => trans('core/base::tables.name'),
                 'class' => 'text-start',
             ],
-            'updated_at' => [
-                'title' => trans('plugins/blog::posts.categories'),
-                'width' => '150px',
-                'class' => 'no-sort text-center',
-                'orderable' => false,
-            ],
+            // 'updated_at' => [
+            //     'title' => trans('plugins/blog::posts.categories'),
+            //     'width' => '150px',
+            //     'class' => 'no-sort text-center',
+            //     'orderable' => false,
+            // ],
             'author_id' => [
                 'title' => trans('plugins/blog::posts.author'),
                 'width' => '150px',
